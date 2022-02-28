@@ -1,0 +1,15 @@
+echo ‘post-receive: Triggered.’
+cd /home/d8s/
+echo ‘post-receive: git check out ...’
+git --git-dir=/home/d8s/prod-librepodd.git --work-tree=/home/d8s/live-librepodd.git checkout master -f
+echo ‘post-receive: npm install...’
+
+# Prepare front-end sources
+npm install
+echo ‘post-receive: building’
+npm run build
+
+# Restart server (depending of your supervisor)
+# ...
+
+echo ‘post-receive: → done.’
