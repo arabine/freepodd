@@ -1,0 +1,20 @@
+{
+  "name": "freepodd",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --port=54321 --host=127.0.0.1",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "vue": "^3.2.20",
+    "vue-i18n": "^9.1.7",
+    "vue-router": "^4.0.10"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.4",
+    "bulma": "^0.9.3",
+    "sass": "^1.37.5",
+    "vite": "^2.6.13"
+  }
+}
