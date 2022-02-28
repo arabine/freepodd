@@ -7,10 +7,10 @@ Le PODD est un ensemble de classeurs de Communication Alternative inventé il y 
 
 Le PODD signifie en français Tableaux Dynamiques à Organisation Pragmatique. Sa spécificité réside dans l’organisation spécifique du vocabulaire (pragmatique et dynamique) qui doit permettre à la personne d’exprimer « ce qu’elle veut, à qui elle veut, quand elle veut » et accéder ainsi à une communication autonome.
 
-Le logiciel FreePodd
+Le logiciel LibrePodd
 ---------------------
 
-Le logiciel FreePodd est une implémentation libre des classeurs sous la forme numérique.
+Le logiciel LibrePodd est une implémentation libre des classeurs sous la forme numérique.
 
 
 C'est programmé en quoi ?

@@ -1,5 +1,5 @@
 {
-  "name": "freepodd",
+  "name": "librepodd",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --port=54321 --host=127.0.0.1",
