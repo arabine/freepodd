@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite --port=54321 --host=127.0.0.1",
-    "build": "vite build"
+    "build": "vite build",
+    "deploy": "node scripts/gh-pages-deploy.js"
   },
   "dependencies": {
     "@mdi/font": "^5.9.55",
