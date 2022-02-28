@@ -13,6 +13,9 @@
     "vue-router": "^4.0.10"
   },
   "devDependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/exec": "^1.1.0",
+    "@actions/github": "^5.0.0",
     "@vitejs/plugin-vue": "^1.9.4",
     "bulma": "^0.9.3",
     "execa": "^6.1.0",

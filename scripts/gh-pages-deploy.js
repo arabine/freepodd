@@ -1,5 +1,6 @@
 /* eslint-disable no-console */
-const execa = require("execa");
+const execa = require('@actions/exec');
+
 const fs = require("fs");
 (async () => {
   try {
