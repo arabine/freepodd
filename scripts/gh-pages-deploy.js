@@ -5,8 +5,6 @@ const fs = require("fs");
   try {
     await execa("git", ["checkout", "--orphan", "gh-pages"]);
     // eslint-disable-next-line no-console
-    console.log("Installing modules...");
-    await execa("npm", ["install"]);
     console.log("Building started...");
     await execa("npm", ["run", "build"]);
     // await execa("yarn", ["build"]);
