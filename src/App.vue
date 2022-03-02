@@ -1,6 +1,8 @@
 <template>
 <div style="height:100vh; width=100vw;">
 
+  <ReloadPrompt />
+
   <section class="section p-0">
       <div class="container">
         <router-view></router-view>
@@ -15,11 +17,13 @@
 
 // Import the toast function
 import Toast from './toast.js';
+import ReloadPrompt from './components/ReloadPrompt.vue'
+
 
 export default {
   name: 'App',
   components: {
- 
+      ReloadPrompt
   },
   data () {
       return { 
