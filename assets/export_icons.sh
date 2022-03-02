@@ -7,3 +7,4 @@ inkscape --export-type="png" icon.svg --export-filename=../public/logo96x96.png 
 inkscape --export-type="png" icon.svg --export-filename=../public/logo144x144.png --export-width=144
 inkscape --export-type="png" icon.svg --export-filename=../public/logo168x168.png --export-width=168
 inkscape --export-type="png" icon.svg --export-filename=../public/logo192x192.png --export-width=192
+inkscape --export-type="png" icon.svg --export-filename=../public/logo512x512.png --export-width=512
